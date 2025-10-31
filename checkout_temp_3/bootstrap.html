@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Checkout Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  
+  <nav class="bg-white shadow-sm py-3">
+    <div class="container-lg d-flex align-items-center justify-content-between">
+      <div class="fw-bold fs-2 text-info">Stella</div>
+      <div class="flex-grow-1 px-4">
+        <input class="form-control rounded-pill" type="text" placeholder="What are you looking for?" />
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <button class="bg-secondary text-white rounded-pill border-0 px-3 py-2">2</button>
+        <button class="bg-light rounded border px-3 py-2">EN</button>
+        <div class="bg-info text-white rounded-pill px-3 py-2 fw-semibold">Kumar</div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container-lg py-4">
+    <div class="row g-4">
+      <div class="col">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="bg-white rounded-4 shadow-sm p-4 text-center d-flex flex-column align-items-center">
+              <div class="mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"><circle cx="30" cy="28" r="15" fill="#e0e7ef"/><circle cx="30" cy="28" r="7" stroke="#bbb" stroke-width="2"/></svg>
+              </div>
+              <div class="fw-bold mb-1">No address saved</div>
+              <div class="mb-2 text-secondary small">Add an address so we can get tracking on the delivery!</div>
+              <button class="btn btn-info rounded-pill px-4">Add new locations</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="bg-white rounded-4 shadow-sm p-4">
+              <div class="fw-semibold mb-3">Choose how to pay</div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="pay-method" checked>
+                <label class="form-check-label">Visa **** 9912</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="pay-method">
+                <label class="form-check-label">Mastercard **** 9912</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="pay-method">
+                <label class="form-check-label">Pay with Tabby</label>
+              </div>
+              <div class="text-end">
+                <a href="#" class="text-info small text-decoration-none">+ Add new method</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-light rounded mt-4 p-3">
+          <div class="fw-semibold">Check your product before checkout</div>
+          <div class="small fw-normal text-secondary">Ensure every detail is perfect before completing your purchase.</div>
+        </div>
+        <div class="bg-white rounded-4 shadow-sm p-4 mt-4">
+          <div class="fw-bold mb-3 d-flex justify-content-between align-items-center">
+            <div>Cart <div class="bg-light px-2 py-1 rounded-pill small text-secondary d-inline-block ms-2">4 items</div></div>
+            <button class="btn btn-link text-info text-decoration-none small">Remove all</button>
+          </div>
+
+          <div class="d-flex align-items-center border-bottom pb-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 24 24" fill="#000"><path d="M20 0a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h16zm-8 4a8.04 8.04 0 0 0-7.37 4.89 7.95 7.95 0 0 0 .74 7.58A8.06 8.06 0 0 0 12 20a7.98 7.98 0 0 0 5.66-13.66A8 8 0 0 0 12 4zm1.16 9.12l.05-.02.21.57c.8 2.24 1.15 4.07 1.25 4.62a6.8 6.8 0 0 1-6.8-.84l-.07-.06.04-.07c.23-.45 1.65-2.92 5.32-4.2zm5.59-.04a6.84 6.84 0 0 1-2.93 4.59l-.1-.5c-.16-.83-.53-2.47-1.23-4.38a9.9 9.9 0 0 1 4.26.3zm-6.56-2.27c.2.38.38.77.55 1.16l-.27.08c-2.99.97-4.78 3.34-5.36 4.2l-.2.31-.18-.21A6.8 6.8 0 0 1 5.17 12v-.22h.38c1 0 3.77-.11 6.64-.97zm5.09-3.15a6.8 6.8 0 0 1 1.55 4.27l-.43-.08c-.79-.13-2.55-.37-4.33-.14l-.15-.35c-.14-.34-.3-.67-.45-1a8.78 8.78 0 0 0 3.8-2.7zm-8.2-1.84l.5.69c.49.7 1.28 1.9 2.04 3.25-3.28.87-6.13.83-6.3.83a6.84 6.84 0 0 1 3.76-4.77zM12 5.17c1.73 0 3.3.64 4.51 1.7l-.09.13a7.86 7.86 0 0 1-3.48 2.35l-.25-.46c-1.1-1.92-2.2-3.4-2.3-3.53.52-.12 1.06-.2 1.61-.2z"/></svg>
+            <div class="ms-3">
+              <div class="fw-semibold">Nike</div>
+              <div class="small">Nike Dri-Fit Training Jacket Summer Special Kit<br>XL - Black</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 ms-auto">
+              <button class="btn btn-light btn-sm">-</button>
+              <div class="mx-1">2</div>
+              <button class="btn btn-light btn-sm">+</button>
+            </div>
+            <div class="fw-bold ms-3 text-secondary">SAR 80.00</div>
+          </div>
+
+          <div class="d-flex align-items-center border-bottom pb-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 24 24" fill="#000"><path d="M20 0a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h16zm-8 4a8.04 8.04 0 0 0-7.37 4.89 7.95 7.95 0 0 0 .74 7.58A8.06 8.06 0 0 0 12 20a7.98 7.98 0 0 0 5.66-13.66A8 8 0 0 0 12 4zm1.16 9.12l.05-.02.21.57c.8 2.24 1.15 4.07 1.25 4.62a6.8 6.8 0 0 1-6.8-.84l-.07-.06.04-.07c.23-.45 1.65-2.92 5.32-4.2zm5.59-.04a6.84 6.84 0 0 1-2.93 4.59l-.1-.5c-.16-.83-.53-2.47-1.23-4.38a9.9 9.9 0 0 1 4.26.3zm-6.56-2.27c.2.38.38.77.55 1.16l-.27.08c-2.99.97-4.78 3.34-5.36 4.2l-.2.31-.18-.21A6.8 6.8 0 0 1 5.17 12v-.22h.38c1 0 3.77-.11 6.64-.97zm5.09-3.15a6.8 6.8 0 0 1 1.55 4.27l-.43-.08c-.79-.13-2.55-.37-4.33-.14l-.15-.35c-.14-.34-.3-.67-.45-1a8.78 8.78 0 0 0 3.8-2.7zm-8.2-1.84l.5.69c.49.7 1.28 1.9 2.04 3.25-3.28.87-6.13.83-6.3.83a6.84 6.84 0 0 1 3.76-4.77zM12 5.17c1.73 0 3.3.64 4.51 1.7l-.09.13a7.86 7.86 0 0 1-3.48 2.35l-.25-.46c-1.1-1.92-2.2-3.4-2.3-3.53.52-.12 1.06-.2 1.61-.2z"/></svg>
+            <div class="ms-3 flex-grow-1">
+              <div class="fw-semibold">Nike</div>
+              <div class="small">Nike Dri-Fit Training Jacket Summer Special Kit<br>XL - Black</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 ms-auto">
+              <button class="btn btn-light btn-sm">-</button>
+              <div class="mx-1">2</div>
+              <button class="btn btn-light btn-sm">+</button>
+            </div>
+            <div class="fw-bold ms-3 text-secondary">SAR 80.00</div>
+          </div>
+
+          <div class="d-flex align-items-center border-bottom pb-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 24 24" fill="#000"><path d="M20 0a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h16zm-8 4a8.04 8.04 0 0 0-7.37 4.89 7.95 7.95 0 0 0 .74 7.58A8.06 8.06 0 0 0 12 20a7.98 7.98 0 0 0 5.66-13.66A8 8 0 0 0 12 4zm1.16 9.12l.05-.02.21.57c.8 2.24 1.15 4.07 1.25 4.62a6.8 6.8 0 0 1-6.8-.84l-.07-.06.04-.07c.23-.45 1.65-2.92 5.32-4.2zm5.59-.04a6.84 6.84 0 0 1-2.93 4.59l-.1-.5c-.16-.83-.53-2.47-1.23-4.38a9.9 9.9 0 0 1 4.26.3zm-6.56-2.27c.2.38.38.77.55 1.16l-.27.08c-2.99.97-4.78 3.34-5.36 4.2l-.2.31-.18-.21A6.8 6.8 0 0 1 5.17 12v-.22h.38c1 0 3.77-.11 6.64-.97zm5.09-3.15a6.8 6.8 0 0 1 1.55 4.27l-.43-.08c-.79-.13-2.55-.37-4.33-.14l-.15-.35c-.14-.34-.3-.67-.45-1a8.78 8.78 0 0 0 3.8-2.7zm-8.2-1.84l.5.69c.49.7 1.28 1.9 2.04 3.25-3.28.87-6.13.83-6.3.83a6.84 6.84 0 0 1 3.76-4.77zM12 5.17c1.73 0 3.3.64 4.51 1.7l-.09.13a7.86 7.86 0 0 1-3.48 2.35l-.25-.46c-1.1-1.92-2.2-3.4-2.3-3.53.52-.12 1.06-.2 1.61-.2z"/></svg>
+            <div class="ms-3 flex-grow-1">
+              <div class="fw-semibold">Nike</div>
+              <div class="small">Nike Dri-Fit Training Jacket Summer Special Kit<br>XL - Black</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 ms-auto">
+              <button class="btn btn-light btn-sm">-</button>
+              <div class="mx-1">2</div>
+              <button class="btn btn-light btn-sm">+</button>
+            </div>
+            <div class="fw-bold ms-3 text-secondary">SAR 80.00</div>
+          </div>
+
+          <div class="d-flex align-items-center border-bottom pb-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 24 24" fill="#000"><path d="M20 0a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h16zm-8 4a8.04 8.04 0 0 0-7.37 4.89 7.95 7.95 0 0 0 .74 7.58A8.06 8.06 0 0 0 12 20a7.98 7.98 0 0 0 5.66-13.66A8 8 0 0 0 12 4zm1.16 9.12l.05-.02.21.57c.8 2.24 1.15 4.07 1.25 4.62a6.8 6.8 0 0 1-6.8-.84l-.07-.06.04-.07c.23-.45 1.65-2.92 5.32-4.2zm5.59-.04a6.84 6.84 0 0 1-2.93 4.59l-.1-.5c-.16-.83-.53-2.47-1.23-4.38a9.9 9.9 0 0 1 4.26.3zm-6.56-2.27c.2.38.38.77.55 1.16l-.27.08c-2.99.97-4.78 3.34-5.36 4.2l-.2.31-.18-.21A6.8 6.8 0 0 1 5.17 12v-.22h.38c1 0 3.77-.11 6.64-.97zm5.09-3.15a6.8 6.8 0 0 1 1.55 4.27l-.43-.08c-.79-.13-2.55-.37-4.33-.14l-.15-.35c-.14-.34-.3-.67-.45-1a8.78 8.78 0 0 0 3.8-2.7zm-8.2-1.84l.5.69c.49.7 1.28 1.9 2.04 3.25-3.28.87-6.13.83-6.3.83a6.84 6.84 0 0 1 3.76-4.77zM12 5.17c1.73 0 3.3.64 4.51 1.7l-.09.13a7.86 7.86 0 0 1-3.48 2.35l-.25-.46c-1.1-1.92-2.2-3.4-2.3-3.53.52-.12 1.06-.2 1.61-.2z"/></svg>
+            <div class="ms-3 flex-grow-1">
+              <div class="fw-semibold">Nike</div>
+              <div class="small">Nike Dri-Fit Training Jacket Summer Special Kit<br>XL - Black</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 ms-auto">
+              <button class="btn btn-light btn-sm">-</button>
+              <div class="mx-1">2</div>
+              <button class="btn btn-light btn-sm">+</button>
+            </div>
+            <div class="fw-bold ms-3 text-secondary">SAR 80.00</div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="">
+        <div class="bg-white rounded-4 shadow-sm p-4 mb-4">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <div>Use Credit for this purchase</div>
+            <div class="d-flex align-items-center gap-2">
+              <input class="form-check-input" type="checkbox" checked>
+              <div class="text-info small">SAR 4000</div>
+            </div>
+          </div>
+          <div class="small text-secondary mb-2">Your Pixicommerce credits are not sufficient...</div>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <div>Make it a Gift</div>
+            <div class="text-info small">SAR 20</div>
+          </div>
+          <div class="small text-secondary mb-2">All items will be wrapped in one box!</div>
+        </div>
+        <div class="bg-white rounded-4 shadow-sm p-4">
+          <div class="fw-bold mb-2">Discount code</div>
+          <div class="d-flex align-items-center mb-2">
+            <input class="form-control bg-light border-0 w-25 me-2 text-info" value="PIX20%" readonly>
+            <button class="btn btn-link text-info small">Remove</button>
+          </div>
+          <div class="text-success small mb-2">Coupon code is valid!</div>
+          <div class="d-flex justify-content-between small mb-1">
+            <div>Subtotal</div>
+            <div>40.00</div>
+          </div>
+          <div class="d-flex justify-content-between small mb-1">
+            <div>Shipping</div>
+            <div class="text-success">Free</div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between fw-bold mb-3">
+            <div>Total</div>
+            <div>330.00</div>
+          </div>
+          <div class="d-flex gap-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="paymentOpt" id="visa">
+              <label class="form-check-label" for="visa">VISA</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="paymentOpt" id="mc">
+              <label class="form-check-label" for="mc">Mastercard</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="paymentOpt" id="cash">
+              <label class="form-check-label" for="cash">Cash</label>
+            </div>
+          </div>
+          <button class="btn btn-info rounded-pill fw-bold w-100 py-3">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
